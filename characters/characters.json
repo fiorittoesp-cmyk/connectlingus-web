@@ -1,0 +1,118 @@
+{
+  "logo": "C:/Users/fiori/mallorca-social-club/public/characters/connect_lingus_logo.jpg",
+  "voices": {
+    "tts_endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+    "lingo": {
+      "voice": "Chris",
+      "elevenlabs_voice_id": "iP95p4xoKVk53GoZ742B",
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.65,
+      "speed": 1.12,
+      "prompt_tag": "[cheerful]"
+    },
+    "conny": {
+      "voice": "Jessica",
+      "elevenlabs_voice_id": "cgSgspJ2msm6clMCkdW9",
+      "stability": 0.4,
+      "similarity_boost": 0.85,
+      "style": 0.65,
+      "speed": 1.12,
+      "prompt_tag": "[cheerful]"
+    },
+    "vito_bark_sfx": {
+      "sfx_endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+      "local_path": "C:/Users/fiori/mallorca-social-club/public/videos/official_intro/sfx_bark.mp3",
+      "url": "https://v3b.fal.media/files/b/0aaf1ab3/q11kxLjn2c5mAGGZSSrBD_sound_effect.mp3",
+      "prompt": "Clear happy medium dog barking twice energetically: Woof! Woof!",
+      "duration_seconds": 1.5
+    },
+    "mario": {
+      "tts_endpoint": "fal-ai/minimax/speech-02-hd",
+      "clone_endpoint": "fal-ai/minimax/voice-clone",
+      "custom_voice_id": "Voice950f28071792487332",
+      "reference_audio_local": "C:/Users/fiori/mallorca-social-club/public/characters/mario_voice_reference.mp3",
+      "reference_audio_url": "https://v3b.fal.media/files/b/0aaf1e5c/Bt0GAIlYN1xFVqeJR-iL1_mario_voice_reference.mp3",
+      "voice_setting": {
+        "voice_id": "Voice950f28071792487332",
+        "speed": 1.0,
+        "vol": 1.0,
+        "pitch": 0
+      }
+    }
+  },
+  "edits": {
+    "lingo": {
+      "images": [
+        "C:/Users/fiori/mallorca-social-club/public/characters/lingo_base.jpg",
+        "C:/Users/fiori/mallorca-social-club/public/characters/connect_lingus_logo.jpg"
+      ],
+      "prompt": "Keep the exact same 3D Pixar character Lingo, face, beard, hair, pose, and Mallorca coastal background from the first image. Change his t-shirt color to a clean crisp white t-shirt, and print the exact CONNECT LINGUS COMMUNITY globe logo from the second image centered on the chest of his white t-shirt (without the black rectangle background, just the blue/indigo globe icon and dark grey text CONNECT LINGUS COMMUNITY cleanly printed on the white fabric)."
+    },
+    "conny": {
+      "images": [
+        "C:/Users/fiori/mallorca-social-club/public/characters/conny_base.jpg",
+        "C:/Users/fiori/mallorca-social-club/public/characters/connect_lingus_logo.jpg"
+      ],
+      "prompt": "Keep the exact same 3D Pixar character Conny, face, hair, smile, pose, and Palma terrace background from the first image. Change her t-shirt color to a soft pastel light pink t-shirt, and print the exact CONNECT LINGUS COMMUNITY globe logo from the second image centered on the chest of her light pink t-shirt (without the black rectangle background, just the blue/indigo globe icon and dark text CONNECT LINGUS COMMUNITY cleanly printed on the soft pastel pink fabric)."
+    },
+    "vito": {
+      "images": [
+        "C:/Users/fiori/mallorca-social-club/public/characters/vito_base.jpg",
+        "C:/Users/fiori/mallorca-social-club/public/characters/connect_lingus_logo.jpg"
+      ],
+      "prompt": "Keep the exact same 3D Pixar Border Collie dog Vito, face, fur, pose, and Mallorca beach background from the first image. Change his neck bandana to a soft pastel light sky blue bandana, and print the exact CONNECT LINGUS COMMUNITY globe logo from the second image clearly centered on the front of his light blue bandana (without the black background, just the dark blue/indigo globe icon and dark text CONNECT LINGUS COMMUNITY cleanly printed on the soft pastel light blue fabric)."
+    }
+  },
+  "results": {
+    "lingo": {
+      "status": "success",
+      "provider": "fal.ai",
+      "type": "image-edit",
+      "model": "fal-ai/nano-banana-pro/edit",
+      "input_urls": [
+        "https://v3b.fal.media/files/b/0aaf08f6/GiWvXdxPG2Vz3qcTO5Syy_lingo_base.jpg",
+        "https://v3b.fal.media/files/b/0aaf08f6/s6cuH0nEjIX11EGli4wZD_connect_lingus_logo.jpg"
+      ],
+      "url": "https://v3b.fal.media/files/b/0aaf08f6/GXB2w6lMCcFIxqzqKZgmM_zdpECKgj.png",
+      "local_path": "C:/Users/fiori/mallorca-social-club/public/characters/lingo.jpg"
+    },
+    "conny": {
+      "status": "success",
+      "provider": "fal.ai",
+      "type": "image-edit",
+      "model": "fal-ai/nano-banana-pro/edit",
+      "input_urls": [
+        "https://v3b.fal.media/files/b/0aaf090f/pHLrJE89Xz8nX2Ij4f5yc_conny_base.jpg",
+        "https://v3b.fal.media/files/b/0aaf090f/4di1SEIV5GmAqlyN3-brp_connect_lingus_logo.jpg"
+      ],
+      "url": "https://v3b.fal.media/files/b/0aaf090f/c06ADEp9hZV6mspQyF86Z_JLmc3nwz.png",
+      "local_path": "C:/Users/fiori/mallorca-social-club/public/characters/conny.jpg"
+    },
+    "vito": {
+      "status": "success",
+      "provider": "fal.ai",
+      "type": "image-edit",
+      "model": "fal-ai/nano-banana-pro/edit",
+      "input_urls": [
+        "https://v3b.fal.media/files/b/0aaf091c/8weXFOdrC5hyM1zNBRiml_vito_base.jpg",
+        "https://v3b.fal.media/files/b/0aaf091c/j0lpFD-RM99NttP9EcA2F_connect_lingus_logo.jpg"
+      ],
+      "url": "https://v3b.fal.media/files/b/0aaf091c/lTxdgZM0a9uE5fPn8Pk5l_5xEjYBlS.png",
+      "local_path": "C:/Users/fiori/mallorca-social-club/public/characters/vito.jpg"
+    },
+    "mario": {
+      "status": "success",
+      "provider": "fal.ai",
+      "type": "image-edit",
+      "model": "fal-ai/nano-banana-pro/edit",
+      "reference_photos": [
+        "C:/Users/fiori/mallorca-social-club/public/characters/mario_ref_1.jpg",
+        "C:/Users/fiori/mallorca-social-club/public/characters/mario_ref_2.jpg",
+        "C:/Users/fiori/mallorca-social-club/public/characters/mario_ref_3.jpg"
+      ],
+      "url": "https://v3b.fal.media/files/b/0aaf1e0b/WM43wXaJFOcPxSWc34pX2_axAIq6IP.png",
+      "local_path": "C:/Users/fiori/mallorca-social-club/public/characters/mario.jpg"
+    }
+  }
+}
