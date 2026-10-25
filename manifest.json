@@ -4,11 +4,10 @@
   "description": "Connect Lingus Community — Eventos, clases, idiomas, excursiones y vida social en Mallorca.",
   "start_url": "/",
   "scope": "/",
-  "display": "fullscreen",
-  "display_override": ["fullscreen", "standalone"],
+  "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
-  "theme_color": "#0d0f17",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "/icon-192.png?v=4",
