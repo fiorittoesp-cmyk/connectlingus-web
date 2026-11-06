@@ -13,8 +13,8 @@ self.addEventListener('push', (event) => {
   let data = {
     title: 'Connect Lingus Community',
     body: 'Tienes un nuevo mensaje en tu buzón.',
-    icon: '/icon-512.png?v=4',
-    badge: '/badge-mono.png?v=6',
+    icon: '/icon-512.png?v=6',
+    badge: '/badge-mono.png?v=4',
     tag: 'cl-push-msg'
   };
 
@@ -30,8 +30,8 @@ self.addEventListener('push', (event) => {
   event.waitUntil(
     self.registration.showNotification(data.title || 'Connect Lingus Community', {
       body: data.body || '',
-      icon: data.icon || '/icon-512.png?v=4',
-      badge: '/badge-mono.png?v=6',
+      icon: data.icon || '/icon-512.png?v=6',
+      badge: '/badge-mono.png?v=4',
       tag: data.tag || `cl-push-${Date.now()}`,
       renotify: true,
       requireInteraction: false,
